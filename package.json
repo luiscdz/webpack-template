@@ -10,7 +10,7 @@
     "build:css": "webpack --config ./css-style-loader/webpack.config.js",
     "build:extract:css": "webpack --config ./plugin-extract/webpack.config.js",
     "build:multi:css": "webpack --config ./multiple-entry-points/webpack.config.js",
-    "build:dev": "webpack --config ./webpack-dev-server/webpack.config.js"
+    "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js"
   },
   "author": "",
   "license": "ISC",

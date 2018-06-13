@@ -17,5 +17,7 @@ module.exports = {
       }
     ]
   },
-  watch: true
+  devServer: {
+    port: 9001
+  }
 }
