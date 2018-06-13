@@ -8,7 +8,8 @@
     "build:local": "webpack",
     "build:external": "webpack --config ./external/webpack.config.js",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js",
-    "build:extract:css": "webpack --config ./plugin-extract/webpack.config.js"
+    "build:extract:css": "webpack --config ./plugin-extract/webpack.config.js",
+    "build:multi:css": "webpack --config ./multiple-entry-points/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
