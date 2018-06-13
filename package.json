@@ -7,7 +7,8 @@
     "build": "webpack index.js --output bundle.js --mode development",
     "build:local": "webpack",
     "build:external": "webpack --config ./external/webpack.config.js",
-    "build:css": "webpack --config ./css-style-loader/webpack.config.js"
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:extract:css": "webpack --config ./plugin-extract/webpack.config.js"
   },
   "author": "",
   "license": "ISC",

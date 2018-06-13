@@ -1,4 +1,5 @@
 const path = require('path');// modulo que permite el manejo de rutas relativas
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname,'index.js'),
@@ -11,10 +12,16 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          MiniCssExtractPlugin.loader,
+          //'style-loader',
           'css-loader'
         ],
       }
     ]
-  }
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "./css/[name].css"
+    })
+  ] 
 }
