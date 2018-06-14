@@ -1,5 +1,6 @@
 import './styles.css';
-import { firstMessage } from './message.js';
+import { firstMessage, delayedMessage } from './message.js';
 
 document.write('Hola Mundo!!! ', firstMessage)
+delayedMessage();
 console.log('Hola mundo');
