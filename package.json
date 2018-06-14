@@ -15,7 +15,8 @@
     "build:image": "webpack --config ./url-loader-img/webpack.config.js",
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./file-loader-video/webpack.config.js",
-    "build:json": "webpack --config ./json-loader/webpack.config.js"
+    "build:json": "webpack --config ./json-loader/webpack.config.js",
+    "build:sass": "webpack --config ./sass-loader/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,8 @@
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.12.0",
