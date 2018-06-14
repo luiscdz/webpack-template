@@ -17,7 +17,9 @@
     "build:video": "webpack --config ./file-loader-video/webpack.config.js",
     "build:json": "webpack --config ./json-loader/webpack.config.js",
     "build:sass": "webpack --config ./sass-loader/webpack.config.js",
-    "build:stylus": "webpack --config ./stylus-loader/webpack.config.js"
+    "build:stylus": "webpack --config ./stylus-loader/webpack.config.js",
+    "build:less": "webpack --config ./less-loader/webpack.config.js",
+    "build:postcss": "webpack --config ./postcss-loader/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
